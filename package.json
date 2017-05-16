@@ -1,0 +1,28 @@
+{
+  "name": "frazionamento.it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geoxa/frazionamento.it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geoxa/frazionamento.it/issues"
+  },
+  "homepage": "https://github.com/Geoxa/frazionamento.it#readme",
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "next": "^3.0.0-beta3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}

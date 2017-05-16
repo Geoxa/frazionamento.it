@@ -1,0 +1,1 @@
+export default () => <span>footer stuff</span>;
