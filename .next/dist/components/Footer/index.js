@@ -13,10 +13,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var _jsxFileName = "/Users/guioconnor/dev/frazionamento.it/components/Footer/index.js";
 
 exports.default = function () {
-  return _react2.default.createElement("span", {
+  return _react2.default.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     }
-  }, "footer stuff");
+  }, "\xA92017 Frazionameto.it \u2014 Tutti i diritti riservati");
 };

@@ -20,7 +20,7 @@ const menu = [
 ));
 
 export default () => (
-  <nav>
+  <nav className="main-navigation">
     <ul>{menu}</ul>
   </nav>
 )

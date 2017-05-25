@@ -41,8 +41,7 @@ var menu = ['/', '/chi-siamo', '/servizi', '/casi', '/contatti', '/links'].map(f
 });
 
 exports.default = function () {
-  return _react2.default.createElement('nav', {
-    __source: {
+  return _react2.default.createElement('nav', { className: 'main-navigation', __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     }
