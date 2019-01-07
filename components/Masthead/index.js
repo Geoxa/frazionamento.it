@@ -3,12 +3,12 @@ const Masthead = () => (
     <div className="superheader">
       <ul className="contact">
         <li>Telefono:
-          <span itemprop="telephone">
+          <span itemProp="telephone">
             <a href="tel:+390461525388">+39 0461 525388</a>
           </span>
         </li>
         <li>Email:
-          <span itemprop="email">
+          <span itemProp="email">
             <a href="mailto">info@frazionamento.it</a>
           </span>
         </li>
@@ -25,18 +25,18 @@ const Masthead = () => (
         <a href="/preventivo">Preventivo</a>
       </div>
     </div>
-    <h1 itemprop="name">Frazionamento.it</h1>
-    <h2>Rileviamo tutto il Trentino Alto-Adige</h2>    
+    <h1 itemProp="name" className="page-title">Frazionamento.it</h1>
+    <h2 className="page-subtitle">Rileviamo tutto il Trentino Alto-Adige</h2>    
   </header>
 );
 
 
 export default Masthead;
 
-// itemprop="geo"
-// itemprop="logo"
-// itemprop="address"
-// itemprop="hasMap"
-// itemprop="areaServed"
+// itemProp="geo"
+// itemProp="logo"
+// itemProp="address"
+// itemProp="hasMap"
+// itemProp="areaServed"
 // contactPoint
 // url

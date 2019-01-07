@@ -32,8 +32,8 @@ exports.default = function (_ref) {
   var title = _ref.title,
       children = _ref.children;
   return _react2.default.createElement('div', {
-    itemscope: true,
-    itemtype: 'http://schema.org/LocalBusiness',
+    itemScope: true,
+    itemType: 'http://schema.org/LocalBusiness',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -67,42 +67,50 @@ exports.default = function (_ref) {
       fileName: _jsxFileName,
       lineNumber: 18
     }
-  }), _react2.default.createElement('link', { rel: 'stylesheet', href: '/static/styles.css', __source: {
+  }), _react2.default.createElement('link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css', __source: {
       fileName: _jsxFileName,
       lineNumber: 19
+    }
+  }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Muli:400,600', rel: 'stylesheet', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }), _react2.default.createElement('link', { rel: 'stylesheet', href: '/static/styles.css', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
     }
   })), _react2.default.createElement(_Header2.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     }
   }), _react2.default.createElement('div', { id: 'content', __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     }
   }, _react2.default.createElement('main', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     }
   }, _react2.default.createElement('h1', {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     }
   }, title), children), _react2.default.createElement('aside', { id: 'sidebar', __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     }
   }, _react2.default.createElement(_Twitter2.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     }
   }))), _react2.default.createElement(_Footer2.default, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     }
   }));
 };
